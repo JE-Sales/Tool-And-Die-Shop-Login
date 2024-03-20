@@ -1,3 +1,9 @@
+const createJobButton = document.getElementById("createJobButton");
+
+viewJobButton.addEventListener('click', (event) => {
+    viewJob();
+    viewJobForm.focus();
+});
 
 document.getElementById("loginForm").addEventListener("submit", function(event) {
     var userType = document.getElementById("userType").value;
